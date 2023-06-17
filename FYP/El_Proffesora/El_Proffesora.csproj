@@ -1,0 +1,654 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{090940C5-1EB1-4DD8-8DDE-61C0538FDCCB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>El_Proffesora</RootNamespace>
+    <AssemblyName>El_Proffesora</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AddCoursesCategory.aspx" />
+    <Content Include="Admin\AddCourses.aspx" />
+    <Content Include="Admin\Add_Instructors.aspx" />
+    <Content Include="Admin\adminpofile.aspx" />
+    <Content Include="Admin\announcement.aspx" />
+    <Content Include="Admin\css\accordions.css" />
+    <Content Include="Admin\css\alerts.css" />
+    <Content Include="Admin\css\animate.css" />
+    <Content Include="Admin\css\bootstrap.min.css" />
+    <Content Include="Admin\css\buttons.css" />
+    <Content Include="Admin\css\c3\c3.min.css" />
+    <Content Include="Admin\css\calendar\fullcalendar.min.css" />
+    <Content Include="Admin\css\calendar\fullcalendar.print.min.css" />
+    <Content Include="Admin\css\chosen\bootstrap-chosen.css" />
+    <Content Include="Admin\css\chosen\chosen-sprite.png" />
+    <Content Include="Admin\css\code-editor\ambiance.css" />
+    <Content Include="Admin\css\code-editor\codemirror.css" />
+    <Content Include="Admin\css\colorpicker\colorpicker.css" />
+    <Content Include="Admin\css\cropper\cropper.min.css" />
+    <Content Include="Admin\css\data-table\bootstrap-editable.css" />
+    <Content Include="Admin\css\data-table\bootstrap-table.css" />
+    <Content Include="Admin\css\datapicker\colorpicker.css" />
+    <Content Include="Admin\css\datapicker\datepicker3.css" />
+    <Content Include="Admin\css\dropzone\dropzone.css" />
+    <Content Include="Admin\css\duallistbox\bootstrap-duallistbox.min.css" />
+    <Content Include="Admin\css\editor\bootstrap-editable.css" />
+    <Content Include="Admin\css\editor\datetimepicker.css" />
+    <Content Include="Admin\css\editor\select2.css" />
+    <Content Include="Admin\css\editor\x-editor-style.css" />
+    <Content Include="Admin\css\educate-custon-icon.css" />
+    <Content Include="Admin\css\font-awesome.min.css" />
+    <Content Include="Admin\css\form.css" />
+    <Content Include="Admin\css\form\all-type-forms.css" />
+    <Content Include="Admin\css\form\themesaller-forms.css" />
+    <Content Include="Admin\css\ionRangeSlider\ion.rangeSlider.css" />
+    <Content Include="Admin\css\ionRangeSlider\ion.rangeSlider.skinFlat.css" />
+    <Content Include="Admin\css\ionRangeSlider\sprite-skin-flat.png" />
+    <Content Include="Admin\css\main.css" />
+    <Content Include="Admin\css\meanmenu.min.css" />
+    <Content Include="Admin\css\metisMenu\metisMenu-vertical.css" />
+    <Content Include="Admin\css\metisMenu\metisMenu.min.css" />
+    <Content Include="Admin\css\modals.css" />
+    <Content Include="Admin\css\morrisjs\morris.css" />
+    <Content Include="Admin\css\normalize.css" />
+    <Content Include="Admin\css\notifications\Lobibox.min.css" />
+    <Content Include="Admin\css\notifications\notifications.css" />
+    <Content Include="Admin\css\owl.carousel.css" />
+    <Content Include="Admin\css\owl.theme.css" />
+    <Content Include="Admin\css\owl.transitions.css" />
+    <Content Include="Admin\css\preloader\preloader-style.css" />
+    <Content Include="Admin\css\responsive.css" />
+    <Content Include="Admin\css\scrollbar\jquery.mCustomScrollbar.min.css" />
+    <Content Include="Admin\css\select2\select2.min.css" />
+    <Content Include="Admin\css\style.css" />
+    <Content Include="Admin\css\summernote\summernote.css" />
+    <Content Include="Admin\css\tabs.css" />
+    <Content Include="Admin\css\touchspin\jquery.bootstrap-touchspin.min.css" />
+    <Content Include="Admin\css\tree-viewer\32px.png" />
+    <Content Include="Admin\css\tree-viewer\throbber.gif" />
+    <Content Include="Admin\css\tree-viewer\tree-viewer.css" />
+    <Content Include="Admin\fonts\educate-icon.svg" />
+    <Content Include="Admin\fonts\fontawesome-webfont.svg" />
+    <Content Include="Admin\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Admin\index.aspx" />
+    <Content Include="Admin\InstructorProfile.aspx" />
+    <Content Include="Admin\InstructorUpload.aspx" />
+    <Content Include="Admin\js\bootstrap.min.js" />
+    <Content Include="Admin\js\c3-charts\c3-active.js" />
+    <Content Include="Admin\js\c3-charts\c3.min.js" />
+    <Content Include="Admin\js\c3-charts\d3.min.js" />
+    <Content Include="Admin\js\calendar\fullcalendar-active.js" />
+    <Content Include="Admin\js\calendar\fullcalendar.min.js" />
+    <Content Include="Admin\js\calendar\moment.min.js" />
+    <Content Include="Admin\js\card.js" />
+    <Content Include="Admin\js\charts\area-chart.js" />
+    <Content Include="Admin\js\charts\bar-chart.js" />
+    <Content Include="Admin\js\charts\Chart.js" />
+    <Content Include="Admin\js\charts\line-chart.js" />
+    <Content Include="Admin\js\charts\rounded-chart.js" />
+    <Content Include="Admin\js\chart\jquery.peity.min.js" />
+    <Content Include="Admin\js\chart\peity-active.js" />
+    <Content Include="Admin\js\chosen\chosen-active.js" />
+    <Content Include="Admin\js\chosen\chosen.jquery.js" />
+    <Content Include="Admin\js\chosen\chosen.jquery.min.js" />
+    <Content Include="Admin\js\code-editor\code-editor-active.js" />
+    <Content Include="Admin\js\code-editor\code-editor.js" />
+    <Content Include="Admin\js\code-editor\codemirror.js" />
+    <Content Include="Admin\js\colorpicker\color-picker-active.js" />
+    <Content Include="Admin\js\colorpicker\jquery.spectrum.min.js" />
+    <Content Include="Admin\js\counterup\counterup-active.js" />
+    <Content Include="Admin\js\counterup\jquery.counterup.min.js" />
+    <Content Include="Admin\js\counterup\waypoints.min.js" />
+    <Content Include="Admin\js\cropper\cropper-actice.js" />
+    <Content Include="Admin\js\cropper\cropper.min.js" />
+    <Content Include="Admin\js\data-map\d3.min.js" />
+    <Content Include="Admin\js\data-map\data-maps-active.js" />
+    <Content Include="Admin\js\data-map\datamaps.all.min.js" />
+    <Content Include="Admin\js\data-map\topojson.js" />
+    <Content Include="Admin\js\data-table\bootstrap-editable.js" />
+    <Content Include="Admin\js\data-table\bootstrap-table-editable.js" />
+    <Content Include="Admin\js\data-table\bootstrap-table-export.js" />
+    <Content Include="Admin\js\data-table\bootstrap-table-resizable.js" />
+    <Content Include="Admin\js\data-table\bootstrap-table.js" />
+    <Content Include="Admin\js\data-table\colResizable-1.5.source.js" />
+    <Content Include="Admin\js\data-table\data-table-active.js" />
+    <Content Include="Admin\js\data-table\tableExport.js" />
+    <Content Include="Admin\js\datapicker\bootstrap-datepicker.js" />
+    <Content Include="Admin\js\datapicker\bootstrap-datepicker.min.js" />
+    <Content Include="Admin\js\datapicker\datepicker-active.js" />
+    <Content Include="Admin\js\datepicker\datepicker-active.js" />
+    <Content Include="Admin\js\datepicker\jquery-ui.min.js" />
+    <Content Include="Admin\js\dropzone\dropzone.js" />
+    <Content Include="Admin\js\duallistbox\duallistbox.active.js" />
+    <Content Include="Admin\js\duallistbox\jquery.bootstrap-duallistbox.js" />
+    <Content Include="Admin\js\e-payment.js" />
+    <Content Include="Admin\js\editable\bootstrap-datetimepicker.js" />
+    <Content Include="Admin\js\editable\bootstrap-editable.js" />
+    <Content Include="Admin\js\editable\jquery.mockjax.js" />
+    <Content Include="Admin\js\editable\mock-active.js" />
+    <Content Include="Admin\js\editable\moment.min.js" />
+    <Content Include="Admin\js\editable\select2.js" />
+    <Content Include="Admin\js\editable\xediable-active.js" />
+    <Content Include="Admin\js\form-validation\form-active.js" />
+    <Content Include="Admin\js\form-validation\jquery.form.min.js" />
+    <Content Include="Admin\js\form-validation\jquery.validate.min.js" />
+    <Content Include="Admin\js\google.maps\google.maps-active.js" />
+    <Content Include="Admin\js\icheck\icheck-active.js" />
+    <Content Include="Admin\js\icheck\icheck.min.js" />
+    <Content Include="Admin\js\input-mask\jasny-bootstrap.min.js" />
+    <Content Include="Admin\js\ionRangeSlider\ion.rangeSlider.active.js" />
+    <Content Include="Admin\js\ionRangeSlider\ion.rangeSlider.min.js" />
+    <Content Include="Admin\js\jquery-price-slider.js" />
+    <Content Include="Admin\js\jquery.maskedinput.min.js" />
+    <Content Include="Admin\js\jquery.meanmenu.js" />
+    <Content Include="Admin\js\jquery.payform.min.js" />
+    <Content Include="Admin\js\jquery.scrollUp.min.js" />
+    <Content Include="Admin\js\jquery.sticky.js" />
+    <Content Include="Admin\js\knob\jquery.knob.js" />
+    <Content Include="Admin\js\knob\knob-active.js" />
+    <Content Include="Admin\js\main.js" />
+    <Content Include="Admin\js\masking-active.js" />
+    <Content Include="Admin\js\metisMenu\metisMenu-active.js" />
+    <Content Include="Admin\js\metisMenu\metisMenu.min.js" />
+    <Content Include="Admin\js\morrisjs\home3-active.js" />
+    <Content Include="Admin\js\morrisjs\morris-active-pro.js" />
+    <Content Include="Admin\js\morrisjs\morris-active.js" />
+    <Content Include="Admin\js\morrisjs\morris.js" />
+    <Content Include="Admin\js\morrisjs\raphael-min.js" />
+    <Content Include="Admin\js\multiple-email\multiple-email-active.js" />
+    <Content Include="Admin\js\notifications\Lobibox.js" />
+    <Content Include="Admin\js\notifications\notification-active.js" />
+    <Content Include="Admin\js\owl.carousel.min.js" />
+    <Content Include="Admin\js\password-meter\password-meter-active.js" />
+    <Content Include="Admin\js\password-meter\pwstrength-bootstrap.min.js" />
+    <Content Include="Admin\js\password-meter\zxcvbn.js" />
+    <Content Include="Admin\js\pdf\jquery.media.js" />
+    <Content Include="Admin\js\pdf\pdf-active.js" />
+    <Content Include="Admin\js\peity\jquery.peity.min.js" />
+    <Content Include="Admin\js\peity\peity-active.js" />
+    <Content Include="Admin\js\plugins.js" />
+    <Content Include="Admin\js\rangle-slider\jquery-ui-1.10.4.custom.min.js" />
+    <Content Include="Admin\js\rangle-slider\jquery-ui-touch-punch.min.js" />
+    <Content Include="Admin\js\rangle-slider\rangle-active.js" />
+    <Content Include="Admin\js\scrollbar\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="Admin\js\scrollbar\mCustomScrollbar-active.js" />
+    <Content Include="Admin\js\select2\select2-active.js" />
+    <Content Include="Admin\js\select2\select2.full.min.js" />
+    <Content Include="Admin\js\sparkline\jquery.charts-sparkline.js" />
+    <Content Include="Admin\js\sparkline\jquery.sparkline.min.js" />
+    <Content Include="Admin\js\sparkline\sparkline-active.js" />
+    <Content Include="Admin\js\summernote\summernote-active.js" />
+    <Content Include="Admin\js\summernote\summernote.min.js" />
+    <Content Include="Admin\js\tab.js" />
+    <Content Include="Admin\js\tawk-chat.js" />
+    <Content Include="Admin\js\touchspin\jquery.bootstrap-touchspin.min.js" />
+    <Content Include="Admin\js\touchspin\touchspin-active.js" />
+    <Content Include="Admin\js\tree-line\jstree.active.js" />
+    <Content Include="Admin\js\tree-line\jstree.min.js" />
+    <Content Include="Admin\js\vendor\jquery-1.12.4.min.js" />
+    <Content Include="Admin\js\vendor\modernizr-2.8.3.min.js" />
+    <Content Include="Admin\js\vendor\modernizr-custom.js" />
+    <Content Include="Admin\js\wizard\jquery.steps.js" />
+    <Content Include="Admin\js\wizard\steps-active.js" />
+    <Content Include="Admin\js\wow.min.js" />
+    <Content Include="Admin\login.aspx" />
+    <Content Include="Admin\myuploads.aspx" />
+    <Content Include="Admin\students.aspx" />
+    <Content Include="Admin\UploadFiles\17 JavaScript_-_Date.mp4" />
+    <Content Include="Admin\UploadFiles\25 JavaScript_-_Image_Map.mp4" />
+    <Content Include="Admin\UploadFiles\6 JavaScript_-_Conditional_Statement.mp4" />
+    <Content Include="Admin\UploadFiles\images\1.jpg" />
+    <Content Include="Admin\UploadFiles\images\2.jpg" />
+    <Content Include="Admin\UploadFiles\images\234055.jpg" />
+    <Content Include="Admin\UploadFiles\images\4.jpg" />
+    <Content Include="Admin\UploadFiles\images\FB_IMG_1496485662670.jpg" />
+    <Content Include="Admin\UploadFiles\images\FB_IMG_1496591509313.jpg" />
+    <Content Include="Admin\UploadFiles\images\FB_IMG_1496851265368.jpg" />
+    <Content Include="Admin\UploadFiles\images\FB_IMG_1496924502264.jpg" />
+    <Content Include="Admin\UploadFiles\images\FB_IMG_1501090645153.jpg" />
+    <Content Include="Admin\UploadFiles\images\javascript.jpg" />
+    <Content Include="Admin\UploadFiles\images\one.png" />
+    <Content Include="Admin\UploadFiles\images\person_1.jpg" />
+    <Content Include="Admin\UploadFiles\images\person_2.jpg" />
+    <Content Include="Admin\UploadFiles\images\person_5.jpg" />
+    <Content Include="Admin\UploadFiles\images\person_6.jpg" />
+    <Content Include="Admin\UploadFiles\images\photoshop.jpg" />
+    <Content Include="Admin\UploadFiles\images\Rizwan khan.png" />
+    <Content Include="Admin\UploadFiles\images\teacher-1.jpg" />
+    <Content Include="Admin\UploadFiles\images\teacher-2.jpg" />
+    <Content Include="Admin\UploadFiles\images\teacher-3.jpg" />
+    <Content Include="Admin\UploadFiles\images\teacher-4.jpg" />
+    <Content Include="Admin\UploadFiles\images\teacher-5.jpg" />
+    <Content Include="Admin\UploadFiles\images\teacher-6.jpg" />
+    <Content Include="Admin\UploadFiles\images\two.png" />
+    <Content Include="Admin\UploadFiles\images\webdesign.jpg" />
+    <Content Include="Admin\UploadFiles\img\blog-details\1.jpg" />
+    <Content Include="Admin\UploadFiles\img\clear.png" />
+    <Content Include="Admin\UploadFiles\img\contact\1.jpg" />
+    <Content Include="Admin\UploadFiles\img\contact\2.jpg" />
+    <Content Include="Admin\UploadFiles\img\contact\3.jpg" />
+    <Content Include="Admin\UploadFiles\img\contact\4.jpg" />
+    <Content Include="Admin\UploadFiles\img\courses\1.jpg" />
+    <Content Include="Admin\UploadFiles\img\courses\2.jpg" />
+    <Content Include="Admin\UploadFiles\img\courses\3.jpg" />
+    <Content Include="Admin\UploadFiles\img\cropper\1.jpg" />
+    <Content Include="Admin\UploadFiles\img\del.jpg" />
+    <Content Include="Admin\UploadFiles\img\edit.png" />
+    <Content Include="Admin\UploadFiles\img\favicon.ico" />
+    <Content Include="Admin\UploadFiles\img\green1.png" />
+    <Content Include="Admin\UploadFiles\img\loading.gif" />
+    <Content Include="Admin\UploadFiles\img\logo.jpg" />
+    <Content Include="Admin\UploadFiles\img\logo.png" />
+    <Content Include="Admin\UploadFiles\img\logo\logo.png" />
+    <Content Include="Admin\UploadFiles\img\logo\logosn.png" />
+    <Content Include="Admin\UploadFiles\img\notification\1.jpg" />
+    <Content Include="Admin\UploadFiles\img\notification\2.jpg" />
+    <Content Include="Admin\UploadFiles\img\notification\3.jpg" />
+    <Content Include="Admin\UploadFiles\img\notification\4.jpg" />
+    <Content Include="Admin\UploadFiles\img\notification\5.jpg" />
+    <Content Include="Admin\UploadFiles\img\notification\6.jpg" />
+    <Content Include="Admin\UploadFiles\img\product\book-1.jpg" />
+    <Content Include="Admin\UploadFiles\img\product\book-2.jpg" />
+    <Content Include="Admin\UploadFiles\img\product\book-3.jpg" />
+    <Content Include="Admin\UploadFiles\img\product\book-4.jpg" />
+    <Content Include="Admin\UploadFiles\img\product\pro4.jpg" />
+    <Content Include="Admin\UploadFiles\img\product\profile-bg.jpg" />
+    <Content Include="Admin\UploadFiles\img\profile\1.jpg" />
+    <Content Include="Admin\UploadFiles\img\profile\3.jpg" />
+    <Content Include="Admin\UploadFiles\img\profile\4.jpg" />
+    <Content Include="Admin\UploadFiles\img\student\1.jpg" />
+    <Content Include="Admin\UploadFiles\img\student\2.jpg" />
+    <Content Include="Admin\UploadFiles\img\student\3.jpg" />
+    <Content Include="Admin\UploadFiles\img\student\4.jpg" />
+    <Content Include="Admin\UploadFiles\pdf.jpg" />
+    <Content Include="Admin\UploadFiles\video\angularjs.jpg" />
+    <Content Include="Admin\UploadFiles\wall banner.jpg" />
+    <Content Include="Admin\ViewAllUsers.aspx" />
+    <Content Include="Admin\ViewAll_Instructors.aspx" />
+    <Content Include="user\About.aspx" />
+    <Content Include="user\contact.aspx" />
+    <Content Include="user\courses.aspx" />
+    <Content Include="user\css\animate.css" />
+    <Content Include="user\css\bootstrap-datepicker.css" />
+    <Content Include="user\css\flaticon.css" />
+    <Content Include="user\css\jquery.timepicker.css" />
+    <Content Include="user\css\magnific-popup.css" />
+    <Content Include="user\css\owl.carousel.min.css" />
+    <Content Include="user\css\owl.theme.default.min.css" />
+    <Content Include="user\css\owl.video.play.html" />
+    <Content Include="user\css\style.css" />
+    <Content Include="user\fonts\flaticon\font\Flaticon.svg" />
+    <Content Include="user\images\about-1.jpg" />
+    <Content Include="user\images\about.jpg" />
+    <Content Include="user\images\bg_1.jpg" />
+    <Content Include="user\images\bg_1_1.jpg" />
+    <Content Include="user\images\bg_2.jpg" />
+    <Content Include="user\images\bg_4.jpg" />
+    <Content Include="user\images\image_1.jpg" />
+    <Content Include="user\images\image_2.jpg" />
+    <Content Include="user\images\image_3.jpg" />
+    <Content Include="user\images\image_4.jpg" />
+    <Content Include="user\images\image_5.jpg" />
+    <Content Include="user\images\image_6.jpg" />
+    <Content Include="user\images\person_1.jpg" />
+    <Content Include="user\images\person_2.jpg" />
+    <Content Include="user\images\person_3.jpg" />
+    <Content Include="user\images\t.jpg" />
+    <Content Include="user\images\teacher-1.jpg" />
+    <Content Include="user\images\teacher-2.jpg" />
+    <Content Include="user\images\teacher-3.jpg" />
+    <Content Include="user\images\teacher-4.jpg" />
+    <Content Include="user\images\teacher-5.jpg" />
+    <Content Include="user\images\teacher-6.jpg" />
+    <Content Include="user\images\teacher-7.jpg" />
+    <Content Include="user\images\teacher-8.jpg" />
+    <Content Include="user\images\tt.jpeg" />
+    <Content Include="user\images\ttt.jpg" />
+    <Content Include="user\images\work-1.jpg" />
+    <Content Include="user\images\work-2.jpg" />
+    <Content Include="user\images\work-3.jpg" />
+    <Content Include="user\images\work-4.jpg" />
+    <Content Include="user\images\work-5.jpg" />
+    <Content Include="user\images\work-6.jpg" />
+    <Content Include="user\images\work-8.jpg" />
+    <Content Include="user\images\work-9.jpg" />
+    <Content Include="user\index.aspx" />
+    <Content Include="user\instructors.aspx" />
+    <Content Include="user\js\bootstrap-datepicker.js" />
+    <Content Include="user\js\bootstrap.min.js" />
+    <Content Include="user\js\google-map.js" />
+    <Content Include="user\js\jquery-migrate-3.0.1.min.js" />
+    <Content Include="user\js\jquery.animateNumber.min.js" />
+    <Content Include="user\js\jquery.easing.1.3.js" />
+    <Content Include="user\js\jquery.magnific-popup.min.js" />
+    <Content Include="user\js\jquery.min.js" />
+    <Content Include="user\js\jquery.stellar.min.js" />
+    <Content Include="user\js\jquery.waypoints.min.js" />
+    <Content Include="user\js\main.js" />
+    <Content Include="user\js\owl.carousel.min.js" />
+    <Content Include="user\js\popper.min.js" />
+    <Content Include="user\js\scrollax.min.js" />
+    <Content Include="user\Registration.aspx" />
+    <Content Include="user\UserProfile.aspx" />
+    <Content Include="user\ViewCourse.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\AddCoursesCategory.aspx.cs">
+      <DependentUpon>AddCoursesCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddCoursesCategory.aspx.designer.cs">
+      <DependentUpon>AddCoursesCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddCourses.aspx.cs">
+      <DependentUpon>AddCourses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddCourses.aspx.designer.cs">
+      <DependentUpon>AddCourses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Add_Instructors.aspx.cs">
+      <DependentUpon>Add_Instructors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Add_Instructors.aspx.designer.cs">
+      <DependentUpon>Add_Instructors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminMaster.Master.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminMaster.Master.designer.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\adminpofile.aspx.cs">
+      <DependentUpon>adminpofile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\adminpofile.aspx.designer.cs">
+      <DependentUpon>adminpofile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\announcement.aspx.cs">
+      <DependentUpon>announcement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\announcement.aspx.designer.cs">
+      <DependentUpon>announcement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BL\BL_admin.cs" />
+    <Compile Include="Admin\BL\BL_Announcement.cs" />
+    <Compile Include="Admin\BL\BL_Assignment.cs" />
+    <Compile Include="Admin\BL\BL_AssignmentType.cs" />
+    <Compile Include="Admin\BL\BL_CourseCategory.cs" />
+    <Compile Include="Admin\BL\BL_Courses.cs" />
+    <Compile Include="Admin\BL\BL_Instructors.cs" />
+    <Compile Include="Admin\BL\RandomClass.cs" />
+    <Compile Include="Admin\BL\SendEmail.cs" />
+    <Compile Include="Admin\BL\SendSms.cs" />
+    <Compile Include="Admin\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\InstructorProfile.aspx.cs">
+      <DependentUpon>InstructorProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\InstructorProfile.aspx.designer.cs">
+      <DependentUpon>InstructorProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\InstructorUpload.aspx.cs">
+      <DependentUpon>InstructorUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\InstructorUpload.aspx.designer.cs">
+      <DependentUpon>InstructorUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\myuploads.aspx.cs">
+      <DependentUpon>myuploads.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\myuploads.aspx.designer.cs">
+      <DependentUpon>myuploads.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\students.aspx.cs">
+      <DependentUpon>students.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\students.aspx.designer.cs">
+      <DependentUpon>students.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ViewAllUsers.aspx.cs">
+      <DependentUpon>ViewAllUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ViewAllUsers.aspx.designer.cs">
+      <DependentUpon>ViewAllUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ViewAll_Instructors.aspx.cs">
+      <DependentUpon>ViewAll_Instructors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ViewAll_Instructors.aspx.designer.cs">
+      <DependentUpon>ViewAll_Instructors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\DataAccess.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="user\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\BL\BL_Courses.cs" />
+    <Compile Include="user\BL\BL_FollowCourse.cs" />
+    <Compile Include="user\BL\BL_FollowInstructor.cs" />
+    <Compile Include="user\BL\BL_LoadCatagory.cs" />
+    <Compile Include="user\BL\BL_User.cs" />
+    <Compile Include="user\contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\courses.aspx.cs">
+      <DependentUpon>courses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\courses.aspx.designer.cs">
+      <DependentUpon>courses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\instructors.aspx.cs">
+      <DependentUpon>instructors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\instructors.aspx.designer.cs">
+      <DependentUpon>instructors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\Registration.aspx.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\Registration.aspx.designer.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\UserMaster.Master.cs">
+      <DependentUpon>UserMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\UserMaster.Master.designer.cs">
+      <DependentUpon>UserMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="user\UserProfile.aspx.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\UserProfile.aspx.designer.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\ViewCourse.aspx.cs">
+      <DependentUpon>ViewCourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\ViewCourse.aspx.designer.cs">
+      <DependentUpon>ViewCourse.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AdminMaster.Master" />
+    <Content Include="Admin\css\bootstrap.min.css.map" />
+    <Content Include="Admin\css\metisMenu\metisMenu.min.css.map" />
+    <Content Include="Admin\css\summernote\fonts\summernote.eot" />
+    <Content Include="Admin\css\summernote\fonts\summernote.ttf" />
+    <Content Include="Admin\css\summernote\fonts\summernote.woff" />
+    <Content Include="Admin\fonts\educate-icon.ttf" />
+    <Content Include="Admin\fonts\educate-icon.woff" />
+    <Content Include="Admin\fonts\fontawesome-webfont.eot" />
+    <Content Include="Admin\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Admin\fonts\fontawesome-webfont.woff" />
+    <Content Include="Admin\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Admin\fonts\FontAwesome.otf" />
+    <Content Include="Admin\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Admin\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Admin\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Admin\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Admin\js\metisMenu\metisMenu.min.js.map" />
+    <Content Include="Admin\pdf\mamunur.pdf" />
+    <Content Include="Admin\UploadFiles\15 Lecture.pdf" />
+    <Content Include="Admin\UploadFiles\advance network %284%29.pdf" />
+    <Content Include="Admin\UploadFiles\SubSonic_2.0.2_Release_Notes.pdf" />
+    <None Include="packages.config" />
+    <Content Include="user\UserMaster.Master" />
+    <Content Include="user\fonts\flaticon\font\Flaticon.eot" />
+    <Content Include="user\fonts\flaticon\font\Flaticon.ttf" />
+    <Content Include="user\fonts\flaticon\font\Flaticon.woff" />
+    <Content Include="user\fonts\flaticon\font\Flaticond41d.eot" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64630</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:64630/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

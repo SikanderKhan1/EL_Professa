@@ -1,0 +1,178 @@
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\El_Proffesora.dll.config
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\El_Proffesora.dll
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\El_Proffesora.pdb
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\csc.exe
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\csc.exe.config
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\csc.rsp
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\csi.exe
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\csi.rsp
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\System.AppContext.dll
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\vbc.exe
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\vbc.exe.config
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\vbc.rsp
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\obj\Debug\El_Proffesora.csprojAssemblyReference.cache
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\obj\Debug\El_Proffesora.csproj.CoreCompileInputs.cache
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\obj\Debug\El_Proffesora.csproj.CopyComplete
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\obj\Debug\El_Proffesora.dll
+C:\Users\Rizwan khan\source\repos\El_Proffesora\El_Proffesora\obj\Debug\El_Proffesora.pdb
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\El_Proffesora.dll.config
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\El_Proffesora.dll
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\El_Proffesora.pdb
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\csc.exe
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\csc.exe.config
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\csc.rsp
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\csi.exe
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\csi.rsp
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\System.AppContext.dll
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\vbc.exe
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\vbc.exe.config
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\vbc.rsp
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\obj\Debug\El_Proffesora.csproj.CoreCompileInputs.cache
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\obj\Debug\El_Proffesora.csproj.CopyComplete
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\obj\Debug\El_Proffesora.dll
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\obj\Debug\El_Proffesora.pdb
+C:\Users\Rizwan khan\Desktop\El_Proffesora\El_Proffesora\obj\Debug\El_Proffesora.csprojAssemblyReference.cache
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\El_Proffesora.dll.config
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\El_Proffesora.dll
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\El_Proffesora.pdb
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\csc.exe
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\csc.exe.config
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\csc.rsp
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\csi.exe
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\csi.rsp
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\System.AppContext.dll
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\vbc.exe
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\vbc.exe.config
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\vbc.rsp
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\VBCSCompiler.exe
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\obj\Debug\El_Proffesora.dll
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\obj\Debug\El_Proffesora.pdb
+C:\Users\iamzi\Desktop\El_Proffesora\El_Proffesora\obj\Debug\El_Proffesora.csprojResolveAssemblyReference.cache
+C:\Projects\FYP\El_Proffesora\bin\El_Proffesora.dll.config
+C:\Projects\FYP\El_Proffesora\bin\El_Proffesora.dll
+C:\Projects\FYP\El_Proffesora\bin\El_Proffesora.pdb
+C:\Projects\FYP\El_Proffesora\bin\roslyn\csc.exe
+C:\Projects\FYP\El_Proffesora\bin\roslyn\csc.exe.config
+C:\Projects\FYP\El_Proffesora\bin\roslyn\csc.rsp
+C:\Projects\FYP\El_Proffesora\bin\roslyn\csi.exe
+C:\Projects\FYP\El_Proffesora\bin\roslyn\csi.rsp
+C:\Projects\FYP\El_Proffesora\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\FYP\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\FYP\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Projects\FYP\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\FYP\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Projects\FYP\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\FYP\El_Proffesora\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\FYP\El_Proffesora\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Projects\FYP\El_Proffesora\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Projects\FYP\El_Proffesora\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\FYP\El_Proffesora\bin\roslyn\System.AppContext.dll
+C:\Projects\FYP\El_Proffesora\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\FYP\El_Proffesora\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Projects\FYP\El_Proffesora\bin\roslyn\System.IO.FileSystem.dll
+C:\Projects\FYP\El_Proffesora\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Projects\FYP\El_Proffesora\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\FYP\El_Proffesora\bin\roslyn\vbc.exe
+C:\Projects\FYP\El_Proffesora\bin\roslyn\vbc.exe.config
+C:\Projects\FYP\El_Proffesora\bin\roslyn\vbc.rsp
+C:\Projects\FYP\El_Proffesora\bin\roslyn\VBCSCompiler.exe
+C:\Projects\FYP\El_Proffesora\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\FYP\El_Proffesora\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\FYP\El_Proffesora\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\FYP\El_Proffesora\obj\Debug\El_Proffesora.csproj.AssemblyReference.cache
+C:\Projects\FYP\El_Proffesora\obj\Debug\El_Proffesora.csproj.CoreCompileInputs.cache
+C:\Projects\FYP\El_Proffesora\obj\Debug\El_Proffesora.csproj.CopyComplete
+C:\Projects\FYP\El_Proffesora\obj\Debug\El_Proffesora.dll
+C:\Projects\FYP\El_Proffesora\obj\Debug\El_Proffesora.pdb
+D:\sandisk\Projects\FYP\El_Proffesora\bin\El_Proffesora.dll.config
+D:\sandisk\Projects\FYP\El_Proffesora\bin\El_Proffesora.dll
+D:\sandisk\Projects\FYP\El_Proffesora\bin\El_Proffesora.pdb
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\csc.exe
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\csc.exe.config
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\csc.rsp
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\csi.exe
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\csi.rsp
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\System.AppContext.dll
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\System.Collections.Immutable.dll
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\System.IO.FileSystem.dll
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\System.Reflection.Metadata.dll
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\vbc.exe
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\vbc.exe.config
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\vbc.rsp
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\VBCSCompiler.exe
+D:\sandisk\Projects\FYP\El_Proffesora\bin\roslyn\VBCSCompiler.exe.config
+D:\sandisk\Projects\FYP\El_Proffesora\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\sandisk\Projects\FYP\El_Proffesora\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\sandisk\Projects\FYP\El_Proffesora\obj\Debug\El_Proffesora.csproj.CoreCompileInputs.cache
+D:\sandisk\Projects\FYP\El_Proffesora\obj\Debug\El_Proffesora.csproj.CopyComplete
+D:\sandisk\Projects\FYP\El_Proffesora\obj\Debug\El_Proffesora.dll
+D:\sandisk\Projects\FYP\El_Proffesora\obj\Debug\El_Proffesora.pdb
+D:\sandisk\Projects\FYP\El_Proffesora\obj\Debug\El_Proffesora.csproj.AssemblyReference.cache

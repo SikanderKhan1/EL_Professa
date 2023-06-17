@@ -1,0 +1,358 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="El_Proffesora.Admin.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Online Learning</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon
+		============================================ -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- Google Fonts
+		============================================ -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+    <!-- Bootstrap CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+   <link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- owl.carousel CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.transitions.css">
+    <!-- animate CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- normalize CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- meanmenu icon CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <!-- main CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- educate icon CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/educate-custon-icon.css">
+    <!-- morrisjs CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/morrisjs/morris.css">
+    <!-- mCustomScrollbar CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <!-- metisMenu CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="css/metisMenu/metisMenu-vertical.css">
+    <!-- x-editor CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/editor/select2.css">
+    <link rel="stylesheet" href="css/editor/datetimepicker.css">
+    <link rel="stylesheet" href="css/editor/bootstrap-editable.css">
+    <link rel="stylesheet" href="css/editor/x-editor-style.css">
+    <!-- calendar CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="css/calendar/fullcalendar.print.min.css">
+    <!-- style CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- responsive CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- modernizr JS
+		============================================ -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <style>
+        .account {
+            padding-top: 60px;
+        }
+
+        .left {
+            padding-left: 300px;
+        }
+
+        .button {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="left-sidebar-pro">
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <a href="index.aspx">
+                        <img class="main-logo" width="100" height="100" src="UploadFiles/img/logo.png" /></a>
+                    <strong><a href="index.aspx">
+                        <img src="UploadFiles/img/logo.png" alt="" /></a></strong>
+                </div>
+                <div class="left-custom-menu-adp-wrap comment-scrollbar">
+                    <nav class="sidebar-nav left-sidebar-menu-pro">
+                        <ul class="metismenu" id="menu1">
+                            <li class="active">
+                            <li>
+                                <a class="has-arrow" href="all-professors.html" aria-expanded="false"><span class="educate-icon educate-professor icon-wrap"></span><span class="mini-click-non">Instructors</span></a>
+                                <ul class="submenu-angle" aria-expanded="false">
+                                    <li><a title="All Professors" href="ViewAll_Instructors.aspx"><span class="mini-sub-pro">All Instructors</span></a></li>
+                                   <li><asp:LinkButton runat="server" ID="btnAddinstructor" OnClick="btntext_Click"><span class="mini-sub-pro">Add Instructo</span></asp:LinkButton></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="has-arrow" href="all-students.html" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span><span class="mini-click-non">Students</span></a>
+                                <ul class="submenu-angle" aria-expanded="false">
+                                    <li><a title="All Students" href="ViewAllUsers.aspx"><span class="mini-sub-pro">All Students</span></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-course icon-wrap"></span><span class="mini-click-non">Courses</span></a>
+                                <ul class="submenu-angle" aria-expanded="false">
+                                    <li><a title="All Courses" href="AddCoursesCategory.aspx"><span class="mini-sub-pro">Course Categories</span></a></li>
+                                    <li><a title="Add Courses" href="AddCourses.aspx"><span class="mini-sub-pro">All Courses</span></a></li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </nav>
+        </div>
+        <!-- End Left menu area -->
+        <div class="all-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="logo-pro">
+                            <a href="index.aspx">
+                                <img class="main-logo" src="img/logo/logo.png" alt="" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-advance-area">
+                <div class="header-top-area">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="header-top-wraper">
+                                    <div class="row">
+                                        <div class="col-lg-1 col-md-0 col-sm-1 col-xs-12">
+                                            <div class="menu-switcher-pro">
+                                                <button type="button" id="sidebarCollapse" class="btn bar-button-pro header-drl-controller-btn btn-info navbar-btn">
+                                                    <i class="educate-icon educate-nav"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <div class="header-top-menu tabl-d-n">
+                                                <ul class="nav navbar-nav mai-top-nav">
+                                                    <li class="nav-item"><a href="index.aspx" class="nav-link">Home</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="InstructorUpload.aspx" class="nav-link">Upload Lecture</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href='myuploads.aspx' class="nav-link">My Uploads</a>
+                                                    </li>
+
+                                                    <li class="nav-item"><a href='announcement.aspx' class="nav-link">Make Announcement</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href='students.aspx' class="nav-link">My Students</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <div class="header-right-info">
+                                                <ul class="nav navbar-nav mai-top-nav header-right-menu">
+                                                    <li class="nav-item">
+                                                        <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
+                                                            <img src='UploadFiles/images/<%= Session["image"].ToString() %>' alt="" />
+
+                                                            <span class="admin-name"><% if (Session["AdminID"] != null)
+       {%> <%= Session["AdminName"] %><% }
+                                                                else
+                                                                { %><%= Session["InstrName"]%><%} %>
+                                                           
+                                                            </span>
+                                                            <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
+                                                        </a>
+                                                        <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
+
+                                                            <% if (Session["AdminID"] != null)
+                                                            {%>
+                                                            <li class="nav-item">
+                                                                <a href='adminpofile.aspx?val=<%= Session["AdminID"]%>' class="nav-link">My Profile</a>
+                                                            </li>
+                                                            <%}
+                                                            else
+                                                            {%>
+                                                            <li class="nav-item">
+                                                                <a href='InstructorProfile.aspx?val=<%=Session["instructorID"]%>' class="nav-link">My Profile</a>
+                                                            </li>
+                                                            <%} %>
+                                                            <li>
+                                                                <asp:LinkButton Text="Logout" ID="btnlogout" OnClick="btnlogout_Click" CssClass="edu-icon edu-user-rounded author-log-ic" runat="server" />
+
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mobile Menu start -->
+                <div class="mobile-menu-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="mobile-menu">
+                                    <nav id="dropdown">
+                                        <ul class="mobile-menu-nav">
+                                            <li><a href="index.aspx">Home</a>
+
+                                            </li>
+
+                                            <li><a data-toggle="collapse" data-target="#demoevent" href="#">Instructors <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                                <ul id="demoevent" class="collapse dropdown-header-top">
+                                                    <li><a href="ViewAll_Instructors.aspx">All Instructors</a>
+                                                    </li>
+                                                    <li><a href="Add_Instructors.aspx">Add Instructor</a>
+                                                    </li>
+
+                                                </ul>
+                                            </li>
+                                            <li><a data-toggle="collapse" data-target="#demopro" href="#">Students <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                                <ul id="demopro" class="collapse dropdown-header-top">
+                                                    <li><a href="ViewAllUsers.aspx">All Students</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li><a data-toggle="collapse" data-target="#democrou" href="#">Courses <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                                <ul id="democrou" class="collapse dropdown-header-top">
+                                                    <li><a href="AddCourcesCategory.aspx">Course Categories</a>
+                                                    </li>
+                                                    <li><a href="AddCourses.aspx">All Courses</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mobile Menu end -->
+
+
+                <asp:ContentPlaceHolder ID="AdminMasterID" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+        </div>
+
+        <!-- jquery
+		============================================ -->
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+        <!-- bootstrap JS
+		============================================ -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- wow JS
+		============================================ -->
+        <script src="js/wow.min.js"></script>
+        <!-- price-slider JS
+		============================================ -->
+        <script src="js/jquery-price-slider.js"></script>
+        <!-- meanmenu JS
+		============================================ -->
+        <script src="js/jquery.meanmenu.js"></script>
+        <!-- owl.carousel JS
+		============================================ -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- sticky JS
+		============================================ -->
+        <script src="js/jquery.sticky.js"></script>
+        <!-- scrollUp JS
+		============================================ -->
+        <script src="js/jquery.scrollUp.min.js"></script>
+        <!-- counterup JS
+		============================================ -->
+        <script src="js/counterup/jquery.counterup.min.js"></script>
+        <script src="js/counterup/waypoints.min.js"></script>
+        <script src="js/counterup/counterup-active.js"></script>
+        <!-- mCustomScrollbar JS
+		============================================ -->
+        <script src="js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="js/scrollbar/mCustomScrollbar-active.js"></script>
+        <!-- metisMenu JS
+		============================================ -->
+        <script src="js/metisMenu/metisMenu.min.js"></script>
+        <script src="js/metisMenu/metisMenu-active.js"></script>
+        <!-- morrisjs JS
+		============================================ -->
+
+        <script src="js/morrisjs/raphael-min.js"></script>
+        <script src="js/morrisjs/morris.js"></script>
+        <script src="js/morrisjs/morris-active.js"></script>
+        <script src="js/morrisjs/raphael-min.js"></script>
+        <script src="js/morrisjs/morris.js"></script>
+        <script src="js/morrisjs/morris-active.js"></script>
+        <!-- morrisjs JS
+		============================================ -->
+        <script src="js/sparkline/jquery.sparkline.min.js"></script>
+        <script src="js/sparkline/jquery.charts-sparkline.js"></script>
+        <script src="js/sparkline/sparkline-active.js"></script>
+        <!-- calendar JS
+		============================================ -->
+        <script src="js/calendar/moment.min.js"></script>
+        <script src="js/calendar/fullcalendar.min.js"></script>
+        <script src="js/calendar/fullcalendar-active.js"></script>
+        <!-- plugins JS
+		============================================ -->
+        <script src="js/plugins.js"></script>
+        <!-- main JS
+		============================================ -->
+        <script src="js/main.js"></script>
+        <!-- tawk chat JS
+		============================================ -->
+        <script src="js/tawk-chat.js"></script>
+        <!-- data table JS
+		============================================ -->
+        <script src="js/data-table/bootstrap-table.js"></script>
+        <script src="js/data-table/tableExport.js"></script>
+        <script src="js/data-table/data-table-active.js"></script>
+        <script src="js/data-table/bootstrap-table-editable.js"></script>
+        <script src="js/data-table/bootstrap-editable.js"></script>
+        <script src="js/data-table/bootstrap-table-resizable.js"></script>
+        <script src="js/data-table/colResizable-1.5.source.js"></script>
+        <script src="js/data-table/bootstrap-table-export.js"></script>
+        <!--  editable JS
+		============================================ -->
+        <script src="js/editable/jquery.mockjax.js"></script>
+        <script src="js/editable/mock-active.js"></script>
+        <script src="js/editable/select2.js"></script>
+        <script src="js/editable/moment.min.js"></script>
+        <script src="js/editable/bootstrap-datetimepicker.js"></script>
+        <script src="js/editable/bootstrap-editable.js"></script>
+        <script src="js/editable/xediable-active.js"></script>
+    </form>
+</body>
+</html>
